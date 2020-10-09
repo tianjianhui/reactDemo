@@ -1,0 +1,7 @@
+.wordFlect{
+    -webkit-box-reflect: below 0 -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));
+}
+.imgFlect{
+    margin-top: 30px;
+    -webkit-box-reflect: below 0 -webkit-linear-gradient(rgba(255,255,255,0) 30%,rgba(255,255,255,1) 100%);
+}

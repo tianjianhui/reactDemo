@@ -1,0 +1,44 @@
+.box1{
+    height: 200px;
+    background: linear-gradient(white, white), url(../../assets/img/test.png);
+    background-clip: padding-box, border-box;
+    background-size: cover;
+    border: 10px solid transparent;
+    background-origin: border-box;
+    margin-bottom: 20px;
+}
+.box2{
+    height: 200px;
+    border: 10px solid transparent;
+    border-image: url(../../assets/img/test.png) 10 round;
+    margin-bottom: 20px;
+}
+.box3{
+    height: 200px;
+    border: 10px solid transparent;
+    background: linear-gradient(white, white), repeating-linear-gradient(-45deg, red 0, red 10px,transparent 0, transparent 20px, #58a 0, #58a 30px, transparent 0, transparent 40px);
+    background-clip: padding-box, border-box;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-origin: border-box;
+}
+.box4{
+    height: 200px;
+    border: 10px solid transparent;
+    border-image: repeating-linear-gradient(-45deg, red 0, red 10px, transparent 0, transparent 20px,#58a 0, #58a 30px, transparent 0, transparent 40px) 10 round;
+    margin-bottom: 20px;
+}
+@keyframes ants {
+    to{
+        height: 200px;
+        background-position: 100%;
+    }
+}
+.box5{
+    height: 200px;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white), repeating-linear-gradient(-45deg, black 0,black 25%, white 0, white 50%);
+    background-clip: padding-box, border-box;
+    animation: ants 12s linear infinite;
+    background-size: 10px 10px;
+}

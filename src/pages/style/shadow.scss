@@ -1,0 +1,11 @@
+.box1{
+    height: 200px;
+    background: linear-gradient(-45deg,transparent 15px,#58a 0);
+    margin-bottom: 50px;
+    filter: drop-shadow(10px 10px 10px #ccc);
+}
+.box2{
+    height: 100px;
+    background: radial-gradient(circle at 0 50%, transparent 40px, #58a 0);
+    filter: drop-shadow(0px 0px 10px #000);
+}

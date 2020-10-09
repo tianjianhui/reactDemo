@@ -1,0 +1,26 @@
+.link{
+    position: relative;
+    display: inline-block;
+    padding: 0.3em 1em 0;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transform: perspective(0.5em) rotateX(5deg);
+    border: 1px solid rgba(0,0,0,0.6);
+    background: linear-gradient(rgba(0,255,255,0.6),rgba(0,255,255,1));
+    z-index: -1;
+    border-radius: 0.5em 0.5em 0 0;
+}
+.active{
+    color: tomato;
+    z-index: 2;
+}

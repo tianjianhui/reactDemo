@@ -1,0 +1,14 @@
+.box1{
+    height: 200px;
+    margin-bottom: 20px;
+    background: repeating-linear-gradient(#32ff6a 0,#32ff6a 10px,#a8ff3e 0,#a8ff3e 20px);
+}
+.box2{
+    height: 200px;
+    margin-bottom: 20px;
+    background: repeating-linear-gradient(45deg,#89a3b2 0,#89a3b2 10px,#b2d3be 0,#b2d3be 20px);
+}
+.box3{
+    height: 200px;
+    background: repeating-linear-gradient(45deg,#12d3cf 0,#12d3cf 10px,#67eaca 0,#67eaca 20px,#b0f4e6 0,#b0f4e6 30px);
+}

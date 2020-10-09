@@ -1,0 +1,38 @@
+.box1{
+    height: 200px;
+    background-color: #5f6769;
+    background-image: radial-gradient(#719192 30%,transparent 0);
+    background-size: 30px 30px;
+    margin-bottom: 20px;
+}
+.box2{
+    height: 200px;
+    background-color: #5f6769;
+    background-image: radial-gradient(#719192 30%,transparent 0),radial-gradient(#719192 30%,transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+    margin-bottom: 20px;
+}
+.box3{
+    background-color: #dfcdc3;
+    height: 400px;
+    background-image: repeating-radial-gradient(#3c4245 0,#3c4245 10px,transparent 0,transparent 30px);
+    margin-bottom: 20px;
+}
+.box4{
+    height: 200px;
+    background: #eee;
+    background-image: radial-gradient(transparent 80%, rgba(88,180,174,0.3) 0);
+    background-size: 30px 30px;
+    margin-bottom: 20px;
+}
+.box5{
+    height: 200px;
+    background: #eee;
+    background-image: radial-gradient(transparent 24px, rgba(7,121,228,0.3) 0, rgba(7,121,228,0.3) 30px, transparent 0),
+                      radial-gradient(transparent 24px, rgba(255,87,34,0.3) 0, rgba(255,87,34,0.3) 30px, transparent 0),
+                      radial-gradient(transparent 24px, rgba(5,223,215,0.3) 0, rgba(5,223,215,0.3) 30px, transparent 0),
+                      radial-gradient(transparent 24px, rgba(152,214,234,0.3) 0, rgba(152,214,234,0.3) 30px, transparent 0);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px, 0 30px, 30px 0;
+}

@@ -1,0 +1,24 @@
+.box{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.box::before{
+    content: '';
+    background: #58a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: skew(-45deg);
+    z-index: -1;
+}

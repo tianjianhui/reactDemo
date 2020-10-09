@@ -1,0 +1,23 @@
+.box1{
+    height: 200px;
+    background-color: #fcf9ec;
+    background-image: linear-gradient(#b0f4e6 50%,transparent 0),linear-gradient(90deg,#67eaca 50%,transparent 0);
+    background-size: 30px 30px;
+    margin-bottom: 20px;
+}
+.box2{
+    height: 200px;
+    background-color: #4592af;
+    /* background-image: linear-gradient(white 1px,transparent 0),linear-gradient(90deg,white 1px,transparent 0); */
+    background-image: repeating-linear-gradient(white 0,white 1px,transparent 0,transparent 30px),repeating-linear-gradient(90deg,white 0,white 1px,transparent 0,transparent 30px);
+    /* background-size: 30px 30px; */
+    margin-bottom: 20px;
+}
+.box3{
+    height: 200px;
+    background-color: #5ca0d3;
+    background-image: repeating-linear-gradient(rgba(0,0,255,0.3) 0,rgba(0,0,255,0.3) 1px,transparent 0,transparent 30px),
+                      repeating-linear-gradient(90deg,rgba(0,0,255,0.3) 0,rgba(0,0,255,0.3) 1px,transparent 0,transparent 30px),
+                      repeating-linear-gradient(white 0,white 2px,transparent 0,transparent 150px),
+                      repeating-linear-gradient(90deg,white 0,white 2px,transparent 0,transparent 150px);
+}

@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+.image{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(2);
+}
