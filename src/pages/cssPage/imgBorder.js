@@ -54,7 +54,7 @@ class ImgBorder extends Component{
     @keyframes ants {
         to{
             height: 200px;
-            background-position: 100%;
+            background-position: 100%; // 默认值是 0%
         }
     }
     .box5{

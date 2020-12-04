@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, Children } from 'react'
 import Card from '../../components/card.js'
 import style from '../style/tab.module.css'
+import Child1 from './child1.js'
+import Child2 from './child2.js'
 function Tab(){
     let intro = `<div>
     利用伪元素做变换形成梯形背景，元素本身放文字，这样就可以避免因变换使文字一起变形的问题，利用tansform的3D变换模拟出一个平面的梯形
@@ -53,6 +55,8 @@ function Tab(){
                     <div className={[style.link, active === 1 ? style.active : null].join(' ')} onClick={() => {changeTab(1)}}>about</div>
                     <div className={[style.link, active === 2 ? style.active : null].join(' ')} onClick={() => {changeTab(2)}}>intro</div>
                 </div>
+                <Child1></Child1>
+                <Child2></Child2>
             </div>
             <div className="code-box">
                 <Card title="梯形标签" intro={intro} code={code}></Card>

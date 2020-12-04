@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import img from '../style/img.module.css'
 import { Button } from 'antd'
 import Card from '../../components/card'
+import myEventEmitter from '../../util/index.js'
+const globalEvent = window.myEvent
 class Image extends Component{
     constructor(props){
         super(props)
@@ -15,6 +17,12 @@ class Image extends Component{
         this.setState({
             state: type
         })
+        const testHandler = function(params){
+            console.log('tag', params)
+        }
+        const myEvent = new myEventEmitter()
+        myEvent.on('onTest', testHandler)
+        globalEvent.emit('onTest', 'love you')
         // console.log('target', this.refs.box.style.objectFit)
     }
     render(){

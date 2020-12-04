@@ -43,6 +43,13 @@ class Stripe extends Component{
                     <div className={stripe.box1}></div>
                     <div className={stripe.box2}></div>
                     <div className={stripe.box3}></div>
+                    <div className={stripe.wrapBar}>
+                        <div className={stripe.progressBar} style={{width: '80%'}}>
+                            <div className={[stripe.contentBar, stripe.activeBar].join(' ')}>
+                                <div className={stripe.colorBar}></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="code-box">
                     <Card title="条纹背景" intro={intro} code={code}></Card>
